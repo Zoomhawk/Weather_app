@@ -21,7 +21,7 @@ To run the application run the following commands after cloning:
    4). npm serve -o  (for running the website locally)
 
 
-There  is some error i was facing to show the output according to city, although the api works fine. I think time should be extended a little bit more.
+There  is some error i was facing to show the output according to city, although the api works fine. I think time should be extended a little bit more.(Now resolved :dated:Nov-9 time-4:30)
 You can change the city simply by adding in the input field but to make sure the data changes you should hover between the celsius and fahrenheit so that the data updated in the real time and you won't see the same data again and again
 
 ## Development server
