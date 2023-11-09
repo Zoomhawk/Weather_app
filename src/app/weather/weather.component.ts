@@ -15,7 +15,7 @@ export class WeatherComponent implements OnInit {
   summary: string = '';
   iconURL: string = '';
   iconURL2 : string='';
-  city: string = '';
+  city: string = 'Afghanistan';
   first_name:string='delhi';
   //units: string = 'metric'
   units: string = 'imperial';
