@@ -1,15 +1,11 @@
 <div class="mycontainer">
     
-            <!-- <input 
+            <input 
             type="text"
-             #box ngmodel 
              placeholder="entername"
-             id="first_name" 
-             name="first_name" 
-             formControlName="first_name"
-             /> 
-           <button (click)="getValues(box.value)">Click me</button>  -->
-      
+             (ngmodel)="value"
+             (change)="getValues();"
+             > 
         
     <div class="card text-white bg-primary m-5" style="max-width: 30rem;">
         

@@ -15,13 +15,15 @@ export class WeatherComponent implements OnInit {
   summary: string = '';
   iconURL: string = '';
   iconURL2 : string='';
-  city: string = 'Dubai';
+  city: string = '';
   first_name:string='delhi';
   //units: string = 'metric'
-  units: string = 'imperial'
-   
-  getValues(val:string){
-    this.city=val;
+  units: string = 'imperial';
+   value: any; 
+
+  getValues(){
+    console.log(this.value) ;
+    this.city=this.value;
   }
   constructor(private weatherService: WeatherService) { }
 
