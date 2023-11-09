@@ -5,6 +5,9 @@ outline:none;
 border: none;
 border-radius: 20px;
 }
-/* .mycontainer{
+.mycontainer{
+    width: 100vw; 
+    height: 52vw;
     background-color: black;
-} */
+    -ms-flex-align: stretch;
+}
