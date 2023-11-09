@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+.search input{
+background-color: var(--shadow-light);
+outline:none;
+border: none;
+border-radius: 20px;
+}
+.mycontainer{
+    background-color: black;
+}
