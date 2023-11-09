@@ -2,14 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 Key tasks: 1. Fetch country list and display selection.
+
            2. Call weather API to get data for selected country. 
+
            3. Pass APPID in weather API call.
+           
            4. Display Summary, temperature, humidity, description(cloudy) for selection.
 
 To run the application run the following commands after cloning:
+
    1). npm install (for installing node modules).
+
    2). npm install -g @angular/cli (to setup cli environment for angular, node version should be 18 or above)
+
    3). npm install ng serve 
+
    4). npm serve -o  (for running the website locally)
 
 
