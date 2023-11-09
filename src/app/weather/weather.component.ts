@@ -25,9 +25,7 @@ export class WeatherComponent implements OnInit {
     console.log(this.value);
     this.city=this.value;
   }
-  // onClick(){
-  //   this.city=this.value;
-  // }
+ 
   constructor(private weatherService: WeatherService) { }
 
   ngOnInit(): void {
@@ -47,7 +45,7 @@ export class WeatherComponent implements OnInit {
         this.humidity = this.myWeather.main.humidity;
         this.pressure = this.myWeather.main.pressure;
         this.summary = this.myWeather.weather[0].main;
-
+        this.city=this.value;
         this.iconURL = this.myWeather.weather[0].description;
         this.iconURL2 =`http://openweathermap.org/img/w/${this.myWeather.weather[0].icon}.png`
       },
