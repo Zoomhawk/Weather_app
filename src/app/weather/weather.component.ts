@@ -21,10 +21,13 @@ export class WeatherComponent implements OnInit {
   units: string = 'imperial';
    value: any; 
 
-  getValues(){
-    console.log(this.value) ;
+  onClick(){
+    console.log(this.value);
     this.city=this.value;
   }
+  // onClick(){
+  //   this.city=this.value;
+  // }
   constructor(private weatherService: WeatherService) { }
 
   ngOnInit(): void {

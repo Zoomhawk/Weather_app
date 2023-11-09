@@ -1,12 +1,8 @@
 <div class="mycontainer">
     
-            <input 
-            type="text"
-             placeholder="entername"
-             (ngmodel)="value"
-             (change)="getValues();"
-             > 
-        
+    <input type="text" [(ngModel)]="value" name="value">
+    <br><br>
+    <button (Click)="onClick">Show</button>
     <div class="card text-white bg-primary m-7" style="max-width: 30rem;">
         
         <div class="card-header text-center">
