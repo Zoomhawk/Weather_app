@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-.search input{
+.input{
 background-color: var(--shadow-light);
 outline:none;
 border: none;
@@ -10,4 +10,13 @@ border-radius: 20px;
     height: 52vw;
     background-color: rgba(26, 25, 25, 0.226);
     -ms-flex-align: stretch;
+}
+
+.card{
+    width: 150vw;
+    height: 35vw;
+}
+
+.card-text{
+    font-size: 30px;
 }
