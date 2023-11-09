@@ -24,6 +24,7 @@ export class WeatherComponent implements OnInit {
   onClick(){
     console.log(this.value);
     this.city=this.value;
+    this.getWeather();
   }
  
   constructor(private weatherService: WeatherService) { }
