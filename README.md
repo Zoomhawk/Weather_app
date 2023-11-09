@@ -1,7 +1,8 @@
 # Myweatherapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
-Key tasks: 1. Fetch country list and display selection.
+Key tasks: 
+           1. Fetch country list and display selection.
 
            2. Call weather API to get data for selected country. 
 
@@ -21,7 +22,7 @@ To run the application run the following commands after cloning:
 
 
 There  is some error i was facing to show the output according to city, although the api works fine. I think time should be extended a little bit more.
-You can change the city by going to src->weather.component.ts -> city (variable)
+You can change the city simply by adding in the input field but to make sure the data changes you should hover between the celsius and fahrenheit so that the data updated in the real time and you won't see the same data again and again
 
 ## Development server
 
